@@ -9,11 +9,11 @@
 
 ## はじめに
 
-この度はMinecraft_skin_to_Live2Dをご依頼いただきありがとうございます！
+この度はMinecraft_skin_to_Live2Dをご依頼いただきありがとうございます！  
 ここでは本モデルの使い方を説明します。
 
 ## 導入方法
 
 通常のLive2Dモデルと同様です。
-VtubeStudioの「VTube Stusio/VTube Stusio_Data/StreamingAssets/Live2DModels」
-にダウンロード、解凍したフォルダを入れてください。
+ダウンロード、解凍したフォルダをVtubeStudioの　　
+「VTube Stusio/VTube Stusio_Data/StreamingAssets/Live2DModels」に入れてください。
