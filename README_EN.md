@@ -2,7 +2,7 @@
 
 <img src="img/MStoLive2D_Logo.png" width="800px" alt="TtitleLogo">
 
-[日本語](index.md)
+[日本語](README_JP)
 
 <details>
   

@@ -2,7 +2,7 @@
 
 <img src="img/MStoLive2D_Logo.png" width="800px" alt="TtitleLogo">
 
-[English](index_EN.md)
+[English](README_EN.md)
 
 <details>
   
