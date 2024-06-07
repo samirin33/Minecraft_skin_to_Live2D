@@ -43,7 +43,7 @@ This model is designed for microscopic distribution, so in addition to basic fac
 The model moves in response to keyboard input. The respective behaviors are as follows.
 
 | Input | Movement |
-| Right/Left Click | Wave your hand | Right/Left Click | Wave your hand
+| --- | --- |
 | Right or Left Click | Wave |
 | W or S | Walk |
 | Spacebar | Jump |
