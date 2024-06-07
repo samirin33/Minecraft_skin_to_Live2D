@@ -1,6 +1,6 @@
 # Minecraft_skin_to_Live2D
 
-<img src="img/MStoLive2D_Logo.png" width="50%" alt="wavehand">
+<img src="img/MStoLive2D_Logo.png" width="800px" alt="wavehand">
 
 <details>
   
@@ -49,7 +49,7 @@
 本モデルは高可動域なので各環境に合った感度に設定する事をおすすめします。  
 他のLive2Dモデルと同様にVtubeStudioのモデル設定欄から実際に動かしながら調整してください  
 
-<img src="img/tracking_folder.png" width="30%" alt="tracking_folder">
+<img src="img/tracking_folder.png" width="350px" alt="tracking_folder">
 <sub>フォルダーアイコンから表示する設定にフィルタをかけることができます。</sub>
 
 > [!TIP]
@@ -61,7 +61,7 @@
 
 又、フェイストラッキングが外れた際はうとうとして眠るアニメーションを用意してあります。  
 ゲーム内で眠る際に敢えてカメラをふさいで寝てみても面白いかもしれません。  
-<img src="img/sleep.png" width="30%" alt="sleeping">
+<img src="img/sleep.png" width="350px" alt="sleeping">
 
 ### ハンドトラッキング
 
@@ -69,12 +69,12 @@
 で述べた様に通常時はクリックで手を振ることができますが、ハンドトラッキングを用いることで自由に動かすことができます。  
 カメラ設定でハンドトラッキングを有効にした上で[スクリーンボタンについて](#スクリーンボタンについて)の紫のボタンを押すことで  
 手の位置に応じてモデルの腕が動くようになります。  
-<sub>ハンドトラッキングモード中はクリックでの手を振るアニメーションが無効になります</sub>
+<sub>ハンドトラッキングモード中はクリックで手を振るアニメーションが無効になります</sub>
 
 ## スクリーンボタンについて
 
 本モデルはいくつかのバインドとスクリーンボタンが最初から設定してあります。  
-<img src="img/screen_buttons.png" width="10%" alt="screen_buttons">
+<img src="img/screen_buttons.png" width="120px" alt="screen_buttons">
 
 各ボタンのデフォルトの機能はこちらです。
 
