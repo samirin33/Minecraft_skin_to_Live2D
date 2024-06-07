@@ -99,7 +99,7 @@ You are free to change these settings as needed.
 
 ## About key bindings and parameters
 
-As with other Live2D models, facial expression differences and other settings can be made by setting parameters in the facial expression file editor.  
+As with other Live2D models, facial expression differences and other settings can be made by setting parameters in the facial Expression Editor.  
 The key bindings set at the time of delivery are categorized in the following folders.  
 
 <img src="img/expression_folder.png" width="350px" alt="expression_folder">
@@ -119,52 +119,52 @@ Select `moving` from the folder icon and turn off all items displayed.
 
 ### If you want to create a new facial expression difference
 
-If you are not sure which parameter is the expression difference or custom element, we recommend that you look for it in the expression file editor, starting with the parameter that is ON in the contents of “UserSetting.exp3.json”.   
+If you are not sure which parameter is the expression difference or custom element, we recommend that you look for it in the Expression Editor, starting with the parameter that is ON in the contents of “UserSetting.exp3.json”.   
 
 <img src="img/UserSettingJson01.png" width="350px" alt="UserSettingJson01">
 <img src="img/UserSettingJson02.png" width="350px" alt="UserSettingJson02">
 
 ### Function of each parameter
 
-表情差分やカスタム要素となる各パラメータの機能一覧です。
+Below is a list of functions for each parameter that can be expression differences or custom elements.
 
-| パラメータ名 | 機能 | 値による変化 | デフォルト値 |
+| Parameter name | Function | Change by value | default value |
 | --- | --- | --- | --- |
-| `HandTrackingMode` | ハンドトラッキングモードを切り替え | 0で無効化・1で有効化 | 0 |
-| `eye_type` | 目の差分を切り替え | 0で非表示・1...4で種類を選択 | 0 |
-| `emotion` | 顔の左上に表示されるエモーションの設定 | 0で非表示・1...7で種類を選択 | 0 |
-| `heart_hue` | emotionに含まれるハートの色相 | -180~180で色相を選択 | -35 |
-| `eye_white` | 瞳を非表示 | 0で通常・1で白目 | 0 |
-| `face_blue` | 青ざめの表示 | 0で通常・1で青ざめ | 0 |
-| `sunglasses` | サングラスを表示 | 0で非表示・1\~で表示(1で半透明\~1.5で不透明)| 0 |
-| `sunglasses_up` | サングラスの高さ | 0で最低位置~1で最高位置 | 0.2 |
-| `sunglasses_saturation` | サングラスの彩度 | -180~180で彩度を選択 | 0 |
-| `sunglasses_hue` | サングラスの色相 | -180~180で色相を選択 | 0 |
-| `halo` | ヘイローの表示 | 0で非表示・1~で表示 | 0 |
-| `halo_saturation` | ヘイローの彩度 | -180~180で彩度を選択 | 0.8 |
-| `halo_hue` | ヘイローの色相 | -180~180で色相を選択 | 53 |
-| `teeth_hide` | 歯の非表示 | 0で表示・1で非表示 | 0 |
-| `bigger_head` | 頭部を拡大 | 0で通常~1で拡大 | 0 |
-| `bounce` | 動きによるモデル全体の揺れを切り替え | 0で揺れを無効化・1で有効化 | 1 |
-| `angle_directlight` | モデルに当たる光の角度 | -180~180で角度を変更 | -60 |
-| `light_value` | 光の強さ | 0で最弱~1で最強 | 0.3 |
-| `shadow_value` | 影の強さ | 0で最弱~1で最強 | 0.3 |
+| `HandTrackingMode` | Switching hand tracking mode | 0で無効化・1で有効化 | 0 |
+| `eye_type` | Switching eye differential | 0で非表示・1...4で種類を選択 | 0 |
+| `emotion` | Emotion settings | 0で非表示・1...7で種類を選択 | 0 |
+| `heart_hue` | Hue of hearts in emotion | -180~180で色相を選択 | -35 |
+| `eye_white` | Hide eyes | 0で通常・1で白目 | 0 |
+| `face_blue` | Pallor enable | 0で通常・1で青ざめ | 0 |
+| `sunglasses` | Sunglasses enable | 0で非表示・1\~で表示(1で半透明\~1.5で不透明)| 0 |
+| `sunglasses_up` | Sunglass height | 0で最低位置~1で最高位置 | 0.2 |
+| `sunglasses_saturation` | Saturation of sunglasses | -180~180で彩度を選択 | 0 |
+| `sunglasses_hue` | Hue of sunglasses | -180~180で色相を選択 | 0 |
+| `halo` | Halo enable | 0で非表示・1~で表示 | 0 |
+| `halo_saturation` | Halo Saturation | -180~180で彩度を選択 | 0.8 |
+| `halo_hue` | Halo Hue | -180~180で色相を選択 | 53 |
+| `teeth_hide` | Hide teeth | 0で表示・1で非表示 | 0 |
+| `bigger_head` | Bigger head | 0で通常~1で拡大 | 0 |
+| `bounce` | Switches the shaking of the entire model due to movement | 0で揺れを無効化・1で有効化 | 1 |
+| `angle_directlight` | Angle of light hitting the model | -180~180で角度を変更 | -60 |
+| `light_value` | Light intensity | 0で最弱~1で最強 | 0.3 |
+| `shadow_value` | Shadow Strength | 0で最弱~1で最強 | 0.3 |
 
 > [!NOTE]
-> 表記について「(数値)・(数値)」の項目は端数を用いた設定ができません。「(数値)~(数値)」の項目は端数を用いた設定ができます。
+> For notation, “(Num) and (Num)” items cannot be set using fractions. The items “(Num)~(Num)” can be set using fractions.
 
 ### If you want to make it poseable
 
-サムネイル等で使用するためにポージングさせたい場合に腕の角度をある程度任意の角度で固定することができます。  
-<sub>顔の角度等の設定はParamAngleX,Y,Z等からできますが、一般的なLive2Dモデルと同様なので割愛します。</sub>  
+The arm angle can be fixed at any desired angle to some extent when posing for use in thumbnails, etc.  
+<sub>The angle of the face can be set using ParamAngleX, Y, Z, etc. However, this is similar to general Live2D models, so I will skip this section.</sub>  
 
-> 「HandTrackingMode」を「1」に  
+> 「HandTrackingMode」to「1」  
 
-> 「HandRightFound」を「1」に  
-> 「HandRightPosionX」と「HandRightPosionY」で右腕の角度を設定  
+> 「HandRightFound」to「1」  
+> 「HandRightPosionX」と「HandRightPosionY」Set the angle of the right arm  
 
-> 「HandLeftFound」を「1」に  
-> 「HandLeftPosionX」と「HandLeftPosionY」で左腕の角度を設定
+> 「HandLeftFound」to「1」  
+> 「HandLeftPosionX」と「HandLeftPosionY」Set the angle of the left arm
 
 <img src="img/arm_setting.png" width="350px" alt="arm_setting">
 
