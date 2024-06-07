@@ -17,41 +17,40 @@
   - [About Screen Buttons](#about-screen-buttons)
   - [About key bindings and parameters](#about-key-bindings-and-parameters)
     - [If you want to turn off click and keyboard actions](#if-you-want-to-turn-off-click-and-keyboard-actions)
-    - [新しい表情差分を作成したい場合](#新しい表情差分を作成したい場合)
-    - [各パラメータの機能](#各パラメータの機能)
-    - [ポージングさせたい場合](#ポージングさせたい場合)
-  - [クレジット表記について](#クレジット表記について)
-  - [関連リンク](#関連リンク)
+    - [If you want to create a new facial expression difference](#if-you-want-to-create-a-new-facial-expression-difference)
+    - [Function of each parameter](#function-of-each-parameter)
+    - [If you want to make it poseable](#if-you-want-to-make-it-poseable)
+  - [About Credit Notation](#about-credit-notation)
+  - [Related Links](#related-links)
 
 </details>
 
 ## Introduction
 
-この度はMinecraft skin to Live2Dをご購入いただきありがとうございます！  
-ここでは本モデルの使い方を説明します。  
-もしここに書かれている内容等で不明な点がございましたら[samirin](https://x.com/samirin33)のDMまでご相談ください。
+Thank you for purchasing Minecraft skin to Live2D!  
+Here are the instructions on how to use this model.  
+If you have any questions about the contents of this page, please contact [samirin](https://x.com/samirin33) by DM.
 
 ## How to introduce
 
-通常のLive2Dモデルと同様です。
-ダウンロード&解凍したフォルダをそのままVtubeStudioの  
-「.../StreamingAssets/Live2DModels」に入れてください。
+It is the same as a normal Live2D model.
+Download and unzip the folder as is into VtubeStudio's  
+... /StreamingAssets/Live2DModels". /StreamingAssets/Live2DModels” in VtubeStudio.
 
 ## About the movement of the model
 
-本モデルはマイクラ配信を想定した設計になっているので基本的なフェイストラッキング以外にも  
-キーボード入力に応じてモデルが動きます。それぞれの動作は以下の通りです。
+This model is designed for microscopic distribution, so in addition to basic face tracking, the model can also be used for other purposes.  
+The model moves in response to keyboard input. The respective behaviors are as follows.
 
-| 入力 | 動作 |
-| --- | --- |
-| 右・左クリック | 手を振る |
-| WまたはS | 歩く |
-| スペースキー | ジャンプ |
-| 左シフト | スニーク |
+| Input | Movement |
+| Right/Left Click | Wave your hand | Right/Left Click | Wave your hand
+| Right or Left Click | Wave |
+| W or S | Walk |
+| Spacebar | Jump |
+| Shift Left | Sneak |
 
-これらの動作はデフォルトで設定されていますが、もしオフにしたい場合は
-[If you want to turn off click and keyboard actions](#If you want to turn off click and keyboard actions)
-をご覧ください。
+These actions are set by default, but if you want to turn them off, please see
+[If you want to turn off click and keyboard actions](#if-you-want-to-turn-off-click-and-keyboard-actions)
 
 ## About Tracking
 
@@ -121,14 +120,14 @@
 
 <img src="img/moving_disable.png" width="350px" alt="moving_disable">
 
-### 新しい表情差分を作成したい場合
+### If you want to create a new facial expression difference
 
 表情差分やカスタム要素となるパラメータがどのパラメータかわからない際は、表情ファイルエディタで「UserSetting.exp3.json」の内容でONになっているパラメータから探してみる事をおすすめします。  
 
 <img src="img/UserSettingJson01.png" width="350px" alt="UserSettingJson01">
 <img src="img/UserSettingJson02.png" width="350px" alt="UserSettingJson02">
 
-### 各パラメータの機能
+### Function of each parameter
 
 表情差分やカスタム要素となる各パラメータの機能一覧です。
 
@@ -157,7 +156,7 @@
 > [!NOTE]
 > 表記について「(数値)・(数値)」の項目は端数を用いた設定ができません。「(数値)~(数値)」の項目は端数を用いた設定ができます。
 
-### ポージングさせたい場合
+### If you want to make it poseable
 
 サムネイル等で使用するためにポージングさせたい場合に腕の角度をある程度任意の角度で固定することができます。  
 <sub>顔の角度等の設定はParamAngleX,Y,Z等からできますが、一般的なLive2Dモデルと同様なので割愛します。</sub>  
@@ -175,11 +174,11 @@
 > [!WARNING]
 > VtubeStudioの不具合で表情ファイルエディタの編集中に小刻みに震える事がありますが、実際にバインドさせてポーズをとらせた場合には震える現象は起こらないのでご安心ください。
 
-## クレジット表記について
+## About Credit Notation
 
 Youtubeの概要欄等のユーザーの目に届く場所に「samirin33」の名前、又は「[https://x.com/samirin33](https://x.com/samirin33)」のリンクを記載してください。
 
-## 関連リンク
+## Related Links
 
 紹介動画　　
 [Minecraft skin to Live2D 紹介動画](https://youtu.be/pfZb89plXow)　　
