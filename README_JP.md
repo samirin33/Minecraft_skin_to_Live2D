@@ -158,15 +158,27 @@
 サムネイル等で使用するためにポージングさせたい場合に腕の角度をある程度任意の角度で固定することができます。  
 <sub>顔の角度等の設定はParamAngleX,Y,Z等からできますが、一般的なLive2Dモデルと同様なので割愛します。</sub>  
 
-「HandTrackingMode」を「1」に  
+> 「HandTrackingMode」を「1」に  
 
-「HandRightFound」を「1」に  
-「HandRightPosionX」と「HandRightPosionY」で右腕の角度を設定  
+> 「HandRightFound」を「1」に  
+> 「HandRightPosionX」と「HandRightPosionY」で右腕の角度を設定  
 
-「HandLeftFound」を「1」に  
-「HandLeftPosionX」と「HandLeftPosionY」で左腕の角度を設定  
+> 「HandLeftFound」を「1」に  
+> 「HandLeftPosionX」と「HandLeftPosionY」で左腕の角度を設定
 
 <img src="img/arm_setting.png" width="350px" alt="arm_setting">
 
 > [!WARNING]
 > VtubeStudioの不具合で表情ファイルエディタの編集中に小刻みに震える事がありますが、実際にバインドさせてポーズをとらせた場合には震える現象は起こらないのでご安心ください。
+
+## クレジット表記について
+
+Youtubeの概要欄等のユーザーの目に届く場所に「samirin33」の名前、又は「[https://x.com/samirin33](https://x.com/samirin33)」のリンクを記載してください。
+
+## 関連リンク
+
+紹介動画　　
+[Minecraft skin to Live2D 紹介動画](https://youtu.be/pfZb89plXow)　　
+
+宣伝ツイート(ポスト)　　
+[準備中...]()　　
