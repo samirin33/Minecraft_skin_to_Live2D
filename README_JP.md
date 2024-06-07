@@ -52,7 +52,7 @@
 ## トラッキングについて
 
 本モデルは高可動域なので各環境に合った感度に設定する事をおすすめします。  
-他のLive2Dモデルと同様にVtubeStudioのモデル設定欄から実際に動かしながら調整してください  
+一般的なLive2Dモデルと同様にVtubeStudioのモデル設定欄から実際に動かしながら調整してください。  
 
 > [!TIP]
 > <img src="img/tracking_folder.png" width="350px" alt="tracking_folder">  
