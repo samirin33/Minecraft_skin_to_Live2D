@@ -1,6 +1,6 @@
 <img src="img/MStoLive2D_Logo.png" width="800px" alt="wavehand">
 
-[English](index_EN.md)
+[日本語](index.md)
 
 <details>
   
