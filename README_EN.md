@@ -6,17 +6,17 @@
 
 <details>
   
-  <summary>目次</summary>
+  <summary>Table of Contents</summary>
   
 - [Minecraft skin to Live2D](#minecraft-skin-to-live2d)
-  - [はじめに](#はじめに)
-  - [導入方法](#導入方法)
-  - [モデルの動きについて](#モデルの動きについて)
-  - [トラッキングについて](#トラッキングについて)
-    - [ハンドトラッキング](#ハンドトラッキング)
-  - [スクリーンボタンについて](#スクリーンボタンについて)
-  - [キーバインドとパラメータについて](#キーバインドとパラメータについて)
-    - [クリックやキーボード操作による動作をオフにしたい場合](#クリックやキーボード操作による動作をオフにしたい場合)
+  - [Introduction](#introduction)
+  - [How to introduce](#how-to-introduce)
+  - [About the movement of the model](#about-the-movement-of-the-model)
+  - [About Tracking](#about-tracking)
+    - [hand tracking](#hand-tracking)
+  - [About Screen Buttons](#about-screen-buttons)
+  - [About key bindings and parameters](#about-key-bindings-and-parameters)
+    - [If you want to turn off click and keyboard actions](#if-you-want-to-turn-off-click-and-keyboard-actions)
     - [新しい表情差分を作成したい場合](#新しい表情差分を作成したい場合)
     - [各パラメータの機能](#各パラメータの機能)
     - [ポージングさせたい場合](#ポージングさせたい場合)
@@ -25,19 +25,19 @@
 
 </details>
 
-## はじめに
+## Introduction
 
 この度はMinecraft skin to Live2Dをご購入いただきありがとうございます！  
 ここでは本モデルの使い方を説明します。  
 もしここに書かれている内容等で不明な点がございましたら[samirin](https://x.com/samirin33)のDMまでご相談ください。
 
-## 導入方法
+## How to introduce
 
 通常のLive2Dモデルと同様です。
 ダウンロード&解凍したフォルダをそのままVtubeStudioの  
 「.../StreamingAssets/Live2DModels」に入れてください。
 
-## モデルの動きについて
+## About the movement of the model
 
 本モデルはマイクラ配信を想定した設計になっているので基本的なフェイストラッキング以外にも  
 キーボード入力に応じてモデルが動きます。それぞれの動作は以下の通りです。
@@ -50,10 +50,10 @@
 | 左シフト | スニーク |
 
 これらの動作はデフォルトで設定されていますが、もしオフにしたい場合は
-[クリックやキーボード操作による動作をオフにしたい場合](#クリックやキーボード操作による動作をオフにしたい場合)
+[If you want to turn off click and keyboard actions](#If you want to turn off click and keyboard actions)
 をご覧ください。
 
-## トラッキングについて
+## About Tracking
 
 本モデルは高可動域なので各環境に合った感度に設定する事をおすすめします。  
 一般的なLive2Dモデルと同様にVtubeStudioのモデル設定欄から実際に動かしながら調整してください。  
@@ -74,16 +74,16 @@
 
 <img src="img/sleep.png" width="350px" alt="sleeping">
 
-### ハンドトラッキング
+### hand tracking
 
-[モデルの動きについて](#モデルの動きについて)
+[About the movement of the model](#About the movement of the model)
 で述べた様に通常時はクリックで手を振ることができますが、ハンドトラッキングを用いることで自由に動かすことができます。  
-カメラ設定でハンドトラッキングを有効にした上で[スクリーンボタンについて](#スクリーンボタンについて)の紫のボタンを押すことで  
+カメラ設定でハンドトラッキングを有効にした上で[About Screen Buttons](#About Screen Buttons)の紫のボタンを押すことで  
 手の位置に応じてモデルの腕が動くようになります。
 > [!IMPORTANT]
 > ハンドトラッキングモード中はクリックで手を振るアニメーションが無効になります
 
-## スクリーンボタンについて
+## About Screen Buttons
 
 本モデルはいくつかのバインドとスクリーンボタンが最初から設定してあります。  
 <img src="img/screen_buttons.png" width="120px" alt="screen_buttons">
@@ -103,7 +103,7 @@
 
 これらの設定は必要に応じて自由に変えてもらって構いません。
 
-## キーバインドとパラメータについて
+## About key bindings and parameters
 
 表情差分等の設定は他のLive2Dモデルと同様に表情ファイルエディタでパラメータを設定する事で行う事ができます。  
 納品時に設定されているキーバインドは以下のフォルダに分類されています。  
@@ -115,7 +115,7 @@
 | accesorry | サングラスやヘイローの追加パーツの設定 |
 | etc | ライティングやその他効果の設定 |
 
-### クリックやキーボード操作による動作をオフにしたい場合
+### If you want to turn off click and keyboard actions
 
 フォルダアイコンからmovingを選択し、表示された項目を全てOFFにしてください。
 
