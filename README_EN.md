@@ -39,8 +39,7 @@ Download and unzip the folder as is into VtubeStudio's
 
 ## About the movement of the model
 
-This model is designed for microscopic distribution, so in addition to basic face tracking, the model can also be used for other purposes.  
-The model moves in response to keyboard input. The respective behaviors are as follows.
+Since this model is designed for Minecraft streaming, the model moves in response to keyboard input in addition to basic face tracking. Each of these actions is shown below.
 
 | Input | Movement |
 | --- | --- |
