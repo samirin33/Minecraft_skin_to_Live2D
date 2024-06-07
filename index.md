@@ -1,6 +1,6 @@
-# Minecraft_skin_to_Live2D
-
 <img src="img/MStoLive2D_Logo.png" width="800px" alt="wavehand">
+
+[English](index_EN.md)
 
 <details>
   
