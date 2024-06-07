@@ -2,6 +2,11 @@
 
 [English](index_EN.md)
 
+:::note info
+インフォメーション
+infoは省略可能です。
+:::
+
 <details>
   
   <summary>目次</summary>
