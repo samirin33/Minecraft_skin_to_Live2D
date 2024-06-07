@@ -75,7 +75,7 @@ As mentioned in [About the movement of the model](#about-the-movement-of-the-mod
 By enabling hand tracking in the camera settings and pressing the purple button in [About Screen Buttons](#about-screen-buttons), the model's arms will move according to the position of the hands.
 
 > [!IMPORTANT]
-> Click to disable hand waving animation while in hand tracking mode.
+> While in hand tracking mode, the hand waving animation is disabled with a click.
 
 ## About Screen Buttons
 
@@ -99,25 +99,27 @@ You are free to change these settings as needed.
 
 ## About key bindings and parameters
 
-表情差分等の設定は他のLive2Dモデルと同様に表情ファイルエディタでパラメータを設定する事で行う事ができます。  
-納品時に設定されているキーバインドは以下のフォルダに分類されています。  
+As with other Live2D models, facial expression differences and other settings can be made by setting parameters in the facial expression file editor.  
+The key bindings set at the time of delivery are categorized in the following folders.  
+
 <img src="img/expression_folder.png" width="350px" alt="expression_folder">
-| フォルダ名 | 設定内容 |
+
+| Folder name | Configuration details |
 | --- | --- |
-| moving | クリックやキーボード操作に反応して動作するアニメーションの設定 |
-| emotion | 顔まわりの差分やエモーションの設定 |
-| accesorry | サングラスやヘイローの追加パーツの設定 |
-| etc | ライティングやその他効果の設定 |
+| `moving` | Setting up that act in response to clicks and keyboard actions |
+| `emotion` | Setting up facial expressions and emoticons around the face |
+| `accesorry` | Setting up additional parts for sunglasses and Halo |
+| `etc` | Setting up lighting and other effects |
 
 ### If you want to turn off click and keyboard actions
 
-フォルダアイコンからmovingを選択し、表示された項目を全てOFFにしてください。
+Select `moving` from the folder icon and turn off all items displayed.
 
 <img src="img/moving_disable.png" width="350px" alt="moving_disable">
 
 ### If you want to create a new facial expression difference
 
-表情差分やカスタム要素となるパラメータがどのパラメータかわからない際は、表情ファイルエディタで「UserSetting.exp3.json」の内容でONになっているパラメータから探してみる事をおすすめします。  
+If you are not sure which parameter is the expression difference or custom element, we recommend that you look for it in the expression file editor, starting with the parameter that is ON in the contents of “UserSetting.exp3.json”.   
 
 <img src="img/UserSettingJson01.png" width="350px" alt="UserSettingJson01">
 <img src="img/UserSettingJson02.png" width="350px" alt="UserSettingJson02">

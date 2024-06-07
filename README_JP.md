@@ -110,14 +110,14 @@
 <img src="img/expression_folder.png" width="350px" alt="expression_folder">
 | フォルダ名 | 設定内容 |
 | --- | --- |
-| moving | クリックやキーボード操作に反応して動作するアニメーションの設定 |
-| emotion | 顔まわりの差分やエモーションの設定 |
-| accesorry | サングラスやヘイローの追加パーツの設定 |
-| etc | ライティングやその他効果の設定 |
+| `moving` | クリックやキーボード操作に反応して動作するアニメーションの設定 |
+| `emotion` | 顔まわりの差分やエモーションの設定 |
+| `accesorry` | サングラスやヘイローの追加パーツの設定 |
+| `etc` | ライティングやその他効果の設定 |
 
 ### クリックやキーボード操作による動作をオフにしたい場合
 
-フォルダアイコンからmovingを選択し、表示された項目を全てOFFにしてください。
+フォルダアイコンから`moving`を選択し、表示された項目を全てOFFにしてください。
 
 <img src="img/moving_disable.png" width="350px" alt="moving_disable">
 
