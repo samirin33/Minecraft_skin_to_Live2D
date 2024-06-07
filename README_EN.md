@@ -2,7 +2,7 @@
 
 <img src="img/MStoLive2D_Logo.png" width="800px" alt="TtitleLogo">
 
-[日本語](README_JP)
+[日本語](README_JP.md)
 
 <details>
   
@@ -71,32 +71,31 @@ It may be interesting to try to sleep with the camera blocked when sleeping in t
 
 ### hand tracking
 
-[About the movement of the model](#About the movement of the model)
-で述べた様に通常時はクリックで手を振ることができますが、ハンドトラッキングを用いることで自由に動かすことができます。  
-カメラ設定でハンドトラッキングを有効にした上で[About Screen Buttons](#About Screen Buttons)の紫のボタンを押すことで  
-手の位置に応じてモデルの腕が動くようになります。
+As mentioned in [About the movement of the model](#about-the-movement-of-the-model), normally you can shake your hand by clicking on it, but by using hand tracking, you can move it freely.  
+By enabling hand tracking in the camera settings and pressing the purple button in [About Screen Buttons](#about-screen-buttons), the model's arms will move according to the position of the hands.
+
 > [!IMPORTANT]
-> ハンドトラッキングモード中はクリックで手を振るアニメーションが無効になります
+> Click to disable hand waving animation while in hand tracking mode.
 
 ## About Screen Buttons
 
-本モデルはいくつかのバインドとスクリーンボタンが最初から設定してあります。  
+This model has several bindings and screen buttons set up from the beginning.  
 <img src="img/screen_buttons.png" width="120px" alt="screen_buttons">
 
-各ボタンのデフォルトの機能はこちらです。
+This is the default function of each button.
 
-| 番号 | 色 | 機能 |
+| Number | Color | Function |
 | --- | --- | --- |
-| 1 | 白 | すべての表情をリセット |
-| 2 | 赤 | ハート表示 |
-| 3 | 青 | グルグル＆青ざめ＆泣き |
-| 4 | 黄 | 手を振るアニメーション再生 |
-| 5 | 水 | サングラス表示 |
-| 6 | 橙 | ヘイロー表示 |
-| 7 | 緑 | モデルの基準の向きとライトの向きを反転 |
-| 8 | 紫 | ハンドトラッキングモード切替|
+| 1 | white | Reset all expressions |
+| 2 | red | Heart enable |
+| 3 | blue | Disheartened , Turn pale and Cry |
+| 4 | yellow | Play the waving animation |
+| 5 | light blue | Sunglasses enable |
+| 6 | orenge | Halo enable |
+| 7 | green | Reverses the orientation of the model's reference and the orientation of the lights |
+| 8 | purple | Hand tracking mode enable |
 
-これらの設定は必要に応じて自由に変えてもらって構いません。
+You are free to change these settings as needed.
 
 ## About key bindings and parameters
 
