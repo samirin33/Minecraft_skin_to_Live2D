@@ -35,7 +35,7 @@
 
 通常のLive2Dモデルと同様です。
 ダウンロード&解凍したフォルダをそのままVtubeStudioの  
-「.../StreamingAssets/Live2DModels」に入れてください。
+`.../StreamingAssets/Live2DModels`に入れてください。
 
 ## モデルの動きについて
 

@@ -35,7 +35,7 @@ If you have any questions about the contents of this page, please contact [samir
 
 It is the same as a normal Live2D model.
 Download and unzip the folder as is into VtubeStudio's  
-... /StreamingAssets/Live2DModels". /StreamingAssets/Live2DModels” in VtubeStudio.
+`.../StreamingAssets/Live2DModels"./StreamingAssets/Live2DModels` in VtubeStudio.
 
 ## About the movement of the model
 
@@ -44,7 +44,7 @@ The model moves in response to keyboard input. The respective behaviors are as f
 
 | Input | Movement |
 | --- | --- |
-| Right or Left Click | Wave |
+| Right or Left Click | Use hand |
 | W or S | Walk |
 | Spacebar | Jump |
 | Shift Left | Sneak |
@@ -54,22 +54,19 @@ These actions are set by default, but if you want to turn them off, please see
 
 ## About Tracking
 
-本モデルは高可動域なので各環境に合った感度に設定する事をおすすめします。  
-一般的なLive2Dモデルと同様にVtubeStudioのモデル設定欄から実際に動かしながら調整してください。  
+Since this model has a high range of motion, it is recommended to set the sensitivity to a level appropriate for each environment.  
+As with most Live2D models, please adjust the sensitivity while actually moving the model in the model settings section of VtubeStudio.  
 
 > [!TIP]
 > <img src="img/tracking_folder.png" width="350px" alt="tracking_folder">  
-> <sub>フォルダーアイコンから表示する設定をフィルタリングできます。</sub>
+> <sub>You can filter the settings to be displayed from the folder icon.</sub>
 
 > [!TIP]
-> ゲーム配信は雑談配信等に比べて意識して顔を動かさない限り動きが小さくなりがちなので、  
-> 大きめに設定することをおすすめします。
->
-> モデルは配信画面下部に配置する方が多数だと思うのでキャリブレーションをする際に  
-> 少し顔を下げて基準の角度を高めに設定するのがおすすめです。
+> We recommend that you set a larger size for game distribution than for chat distribution, because the movement tends to be smaller than in chat distribution unless you consciously move your face.  
+> Since most of the models are placed at the bottom of the screen, it is recommended to lower the face a little when calibrating and set the angle of the reference to a higher level.
 
-又、フェイストラッキングが外れた際はうとうと眠るアニメーションを行います。  
-ゲーム内で眠る際に敢えてカメラをふさいで寝てみても面白いかもしれません。  
+Also, when the face tracking is off, the model will animate dozing off.  
+It may be interesting to try to sleep with the camera blocked when sleeping in the game.  
 
 <img src="img/sleep.png" width="350px" alt="sleeping">
 
