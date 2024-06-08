@@ -130,25 +130,25 @@ Below is a list of functions for each parameter that can be expression differenc
 
 | Parameter name | Function | Change by value | default value |
 | --- | --- | --- | --- |
-| `HandTrackingMode` | Switching hand tracking mode | 0で無効化・1で有効化 | 0 |
-| `eye_type` | Switching eye differential | 0で非表示・1...4で種類を選択 | 0 |
-| `emotion` | Emotion settings | 0で非表示・1...7で種類を選択 | 0 |
-| `heart_hue` | Hue of hearts in emotion | -180~180で色相を選択 | -35 |
-| `eye_white` | Hide eyes | 0で通常・1で白目 | 0 |
-| `face_blue` | Pallor enable | 0で通常・1で青ざめ | 0 |
-| `sunglasses` | Sunglasses enable | 0で非表示・1\~で表示(1で半透明\~1.5で不透明)| 0 |
-| `sunglasses_up` | Sunglass height | 0で最低位置~1で最高位置 | 0.2 |
-| `sunglasses_saturation` | Saturation of sunglasses | -180~180で彩度を選択 | 0 |
-| `sunglasses_hue` | Hue of sunglasses | -180~180で色相を選択 | 0 |
-| `halo` | Halo enable | 0で非表示・1~で表示 | 0 |
-| `halo_saturation` | Halo Saturation | -180~180で彩度を選択 | 0.8 |
-| `halo_hue` | Halo Hue | -180~180で色相を選択 | 53 |
-| `teeth_hide` | Hide teeth | 0で表示・1で非表示 | 0 |
-| `bigger_head` | Bigger head | 0で通常~1で拡大 | 0 |
-| `bounce` | Switches the shaking of the entire model due to movement | 0で揺れを無効化・1で有効化 | 1 |
-| `angle_directlight` | Angle of light hitting the model | -180~180で角度を変更 | -60 |
-| `light_value` | Light intensity | 0で最弱~1で最強 | 0.3 |
-| `shadow_value` | Shadow Strength | 0で最弱~1で最強 | 0.3 |
+| `HandTrackingMode` | Switching hand tracking mode | 0 to disable, 1 to enable | 0 |
+| `eye_type` | Switching eye differential | 0 to hide, 1...4 to select type | 0 |
+| `emotion` | Emotion settings | 0 to hide, 1...7 to select type | 0 |
+| `heart_hue` | Hue of hearts in emotion | Select hue with -180\~180 | -35 |
+| `eye_white` | Hide eyes | 0 to normal, 1 to hide pupils | 0 |
+| `face_blue` | Pallor enable | 0 to normal, 1 to blue | 0 |
+| `sunglasses` | Sunglasses enable | 0 to hidden, 1\~ visible (1 for translucent, \~1.5 to opaque)| 0 |
+| `sunglasses_up` | Sunglass height | 0 to lowest position \~ 1 to highest position | 0.2 |
+| `sunglasses_saturation` | Saturation of sunglasses | Select saturation with -180\~180 | 0 |
+| `sunglasses_hue` | Hue of sunglasses | Select hue with -180\~180 | 0 |
+| `halo` | Halo enable | 0 to hide, 1~ to show | 0 |
+| `halo_saturation` | Halo Saturation | Select saturation with -180\~180 | 0.8 |
+| `halo_hue` | Halo Hue | Select hue with -180\~180 | 53 |
+| `teeth_hide` | Hide teeth | 0 to show, 1~ to hide | 0 |
+| `bigger_head` | Bigger head | 0 to Normal ~ 1 to Enlarged | 0 |
+| `bounce` | Switches the shaking of the entire model due to movement | 0 to disable shaking, 1 to enable | 1 |
+| `angle_directlight` | Angle of light hitting the model | Change angle at -180~180 | -60 |
+| `light_value` | Light intensity | 0 to weakest, \~ 1 to strongest | 0.3 |
+| `shadow_value` | Shadow Strength | 0 to weakest, \~ 1 to strongest | 0.3 |
 
 > [!NOTE]
 > For notation, “(Num) and (Num)” items cannot be set using fractions. The items “(Num)~(Num)” can be set using fractions.
@@ -161,24 +161,24 @@ The arm angle can be fixed at any desired angle to some extent when posing for u
 > 「HandTrackingMode」to「1」  
 
 > 「HandRightFound」to「1」  
-> 「HandRightPosionX」と「HandRightPosionY」Set the angle of the right arm  
+> 「HandRightPosionX」and「HandRightPosionY」Set the angle of the right arm  
 
 > 「HandLeftFound」to「1」  
-> 「HandLeftPosionX」と「HandLeftPosionY」Set the angle of the left arm
+> 「HandLeftPosionX」and「HandLeftPosionY」Set the angle of the left arm
 
 <img src="img/arm_setting.png" width="350px" alt="arm_setting">
 
 > [!WARNING]
-> VtubeStudioの不具合で表情ファイルエディタの編集中に小刻みに震える事がありますが、実際にバインドさせてポーズをとらせた場合には震える現象は起こらないのでご安心ください。
+> A glitch in VtubeStudio may cause a small tremor while editing the expression file editor, but rest assured that the tremor does not occur when the camera is actually bound and posed.
 
 ## About Credit Notation
 
-Youtubeの概要欄等のユーザーの目に届く場所に「samirin33」の名前、又は「[https://x.com/samirin33](https://x.com/samirin33)」のリンクを記載してください。
+Please include the name “samirin33” or a link to “[https://x.com/samirin33](https://x.com/samirin33)” in the summary section of Youtube or other places where users can see it.
 
 ## Related Links
 
-紹介動画　　
+Introduction Video　
 [Minecraft skin to Live2D 紹介動画](https://youtu.be/pfZb89plXow)　　
 
-宣伝ツイート(ポスト)　　
-[準備中...]()　　
+publicity post　
+[Minecraft skin to Live2D 宣伝ポスト](https://x.com/samirin33/status/1799373300507816096)　　
