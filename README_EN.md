@@ -133,16 +133,16 @@ Below is a list of functions for each parameter that can be expression differenc
 | `HandTrackingMode` | Switching hand tracking mode | 0 to disable, 1 to enable | 0 |
 | `eye_type` | Switching eye differential | 0 to hide, 1...4 to select type | 0 |
 | `emotion` | Emotion settings | 0 to hide, 1...7 to select type | 0 |
-| `heart_hue` | Hue of hearts in emotion | Select hue with -180\~180 | -35 |
+| `heart_hue` | Hue of hearts in emotion | Select hue with -180  \~180 | -35 |
 | `eye_white` | Hide eyes | 0 to normal, 1 to hide pupils | 0 |
 | `face_blue` | Pallor enable | 0 to normal, 1 to blue | 0 |
-| `sunglasses` | Sunglasses enable | 0 to hidden, 1\~ visible (1 for translucent, \~1.5 to opaque)| 0 |
+| `sunglasses` | Sunglasses enable | 0 to hidden, 1\~ visible (1 to translucent, \~1.5 to opaque)| 0 |
 | `sunglasses_up` | Sunglass height | 0 to lowest position \~ 1 to highest position | 0.2 |
-| `sunglasses_saturation` | Saturation of sunglasses | Select saturation with -180\~180 | 0 |
-| `sunglasses_hue` | Hue of sunglasses | Select hue with -180\~180 | 0 |
+| `sunglasses_saturation` | Saturation of sunglasses | Select saturation with -180 \~180 | 0 |
+| `sunglasses_hue` | Hue of sunglasses | Select hue with -180 \~180 | 0 |
 | `halo` | Halo enable | 0 to hide, 1~ to show | 0 |
 | `halo_saturation` | Halo Saturation | Select saturation with -180\~180 | 0.8 |
-| `halo_hue` | Halo Hue | Select hue with -180\~180 | 53 |
+| `halo_hue` | Halo Hue | Select hue with -180 \~180 | 53 |
 | `teeth_hide` | Hide teeth | 0 to show, 1~ to hide | 0 |
 | `bigger_head` | Bigger head | 0 to Normal ~ 1 to Enlarged | 0 |
 | `bounce` | Switches the shaking of the entire model due to movement | 0 to disable shaking, 1 to enable | 1 |
@@ -151,7 +151,7 @@ Below is a list of functions for each parameter that can be expression differenc
 | `shadow_value` | Shadow Strength | 0 to weakest, \~ 1 to strongest | 0.3 |
 
 > [!NOTE]
-> For notation, “(Num) and (Num)” items cannot be set using fractions. The items “(Num)~(Num)” can be set using fractions.
+> For notation, “(Num), (Num)” items cannot be set using fractions. The items “(Num)~(Num)” can be set using fractions.
 
 ### If you want to make it poseable
 
