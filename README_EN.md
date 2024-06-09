@@ -173,7 +173,7 @@ The arm angle can be fixed at any desired angle to some extent when posing for u
 
 ## About Credit Notation
 
-Please include the name “samirin33” or a link to “[https://x.com/samirin33](https://x.com/samirin33)” in the summary section of Youtube or other places where users can see it.
+Please include the name “samirin33” or a link to “[https://x.com/samirin33](https://x.com/samirin33)” in the summary section of Youtube or other places where users can see it. (obligation)
 
 ## Related Links
 
