@@ -155,7 +155,7 @@ Below is a list of functions for each parameter that can be expression differenc
 
 ### If you want to make it poseable
 
-The arm angle can be fixed at any desired angle to some extent when posing for use in thumbnails, etc.  
+The arms can be fixed at some arbitrary angle if you want to pose them for use in thumbnails, etc.  
 <sub>The angle of the face can be set using ParamAngleX, Y, Z, etc. However, this is similar to general Live2D models, so I will skip this section.</sub>  
 
 > 「HandTrackingMode」to「1」  
